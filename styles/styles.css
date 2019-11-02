@@ -119,7 +119,3 @@ a {
   transform-origin: bottom right;
   transform: rotate(45deg);
 }
-
-#sprinkle {
-  transition: top 1s linear;
-}
