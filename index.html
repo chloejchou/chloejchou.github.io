@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chloe Chou</title>
+    <script async src="./javascript/index.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Lato|Playfair+Display:900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- (1) landing page -->
+      <div class="bg--primary-pink vh-100 w-100 flex items-center relative">
+        <span id="menu-cta" class="z-2">
+          <i 
+            data-feather="info" 
+            class="w2 h2 absolute white pointer boop" 
+            style="top:20px;left:20px"></i>
+        </span>
+        <div 
+          id="menu" 
+          class="bg--primary-pink br b--white bw1 pa3 absolute white z-1" 
+        >
+          <div 
+            style="transform-origin:top left; transform: rotate(-45deg); top: 540px; left:200px;"
+            class="absolute"
+          >
+            <div class="sub-header pr3 pt3 tr">hello</div>
+            <div class="pa2 mv3 pl3">
+              <div class="mr2">welcome - my name is chloe. thank you for visiting my passion project! </div>
+              <div class="mr5">included below are some of my contact methods - </div>
+              <div class="mr6">I’d love to hear from you!</div>
+            </div>
+            <div class="flex items-center pointer pl3 pt2">
+              <a href="https://www.linkedin.com/in/chloe-chou/"><i data-feather="linkedin" class="pr2"></i></a>
+              <a href="https://github.com/chloejchou"><i data-feather="github" class="pr2"></i></a>
+              <a href="https://codepen.io/chloejchou"><i data-feather="codepen" class="pr2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="primary-purple large-header pb5 ph6">
+          <div class="flip-up">let there</div>
+          <div class="flip-up">be cake</div>
+        </div>
+        <i 
+          data-feather="arrow-down" 
+          stroke-width="1" 
+          class="w5 h5 absolute white pointer bounce-infinite" 
+          style="bottom:0;right:0"></i>
+      </div>
+    <!-- (2) large quote -->
+    <div style="height: 700px" class="pt7 relative truncate">
+      <div id="sprinkles"></div>
+      <div class="tc relative primary-purple">
+        <div class="sub-header pb3" style="padding-right:100px">all i want is more hours in </div>
+        <div class="sub-header pl2" style="padding-left: 100px">the day...and <span class="primary-pink">cake</span>. that is all.</div>
+        <span class="body absolute pt3 f4" style="right: 15%">- some wise person.</span>
+        <!-- sprinkles --> 
+      </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
